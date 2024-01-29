@@ -39,13 +39,26 @@
 }
 
 @media only screen and (max-width: 1440px){
+    .btn{
+        @include fonts(normal, 500, 14px, 150%);
+        padding: 14px 24px;
+    }
     .link__purple{
         padding: 16px 40px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .link__btn{
+        @include fonts(normal, 500, 14px, 150%);
+        padding: 14px 20px;
     }
 }
 
 @media only screen and (max-width: 483px){
     .link__purple{
         padding: 14px 30px;
+        width: 20px;
+        height: 20px;
     }
 }
