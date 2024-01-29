@@ -1,0 +1,26 @@
+.btn{
+    font-family: var(--main-font);
+    @include fonts(normal, 500, 18px, 150%);
+    padding: 15px 24px;
+    border-radius: 10px;
+    border: 1px solid #2F2F37;
+    background: var(--btn-color);
+    color: var(--main-txt-cl);
+}
+
+.link__purple{
+    padding: 18px 50px;
+    border-radius: 100px;
+    background: var(--Purple-55, #4A2CED);
+    box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+}
+
+.link__btn{
+    font-family: var(--main-font);
+    @include fonts(normal, 500, 18px, 150%);
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: 1px solid #2F2F37;
+    background: var(--Dark-12, #1C1C21);
+    color: var(--main-txt-cl);
+}
