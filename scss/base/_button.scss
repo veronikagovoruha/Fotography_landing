@@ -37,3 +37,15 @@
     border: 1px solid #2F2F37;
     background: var(--btn-color);
 }
+
+@media only screen and (max-width: 1440px){
+    .link__purple{
+        padding: 16px 40px;
+    }
+}
+
+@media only screen and (max-width: 483px){
+    .link__purple{
+        padding: 14px 30px;
+    }
+}

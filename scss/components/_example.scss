@@ -1,0 +1,38 @@
+.example{
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    border-top: 1px solid var(--btn-color);
+    border-bottom: 1px solid var(--btn-color);
+    background:  #0E0E10;
+}
+
+.example__list{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.example__item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.example__text{
+    font-family: var(--main-font);
+    @include fonts(normal, 400, 16px, 150%);
+    text-transform: uppercase;
+    color: #D6D0FB;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 1440px){
+    .example__list{
+        gap: 16px;
+    }
+    
+    .example__item{
+        gap: 6px;
+    }
+}
